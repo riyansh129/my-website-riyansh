@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Riyansh's Colorful Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #00c9ff, #92fe9d);
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .button {
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: #ff4b2b;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background-color: #ff416c;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Riyansh's Website!</h1>
+    <p>Hello! I’m Riyansh — I love building cool websites and robots using Arduino.  
+    This is my colorful website made using GitHub Pages!</p>
+    <a href="https://github.com/riyansh129" target="_blank" class="button">Visit My GitHub</a>
+  </header>
+
+  <footer>
+    Made with 💖 by Riyansh | Hosted on GitHub Pages
+  </footer>
+
+</body>
+</html>
